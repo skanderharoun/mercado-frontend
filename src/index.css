@@ -1,0 +1,25 @@
+
+.global-loading {
+  position: fixed;
+  top: 0;
+  background-color: green;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.5;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+.toast-success div {
+  background-color: green;
+}
+
+.toast-error div {
+  background-color: red;
+}
+
+.pro-sidebar-content .active {
+  color: yellow;
+}
