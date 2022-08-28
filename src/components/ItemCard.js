@@ -35,7 +35,7 @@ function ItemCard({ item }) {
                             </>
                         )
                     }
-                    <p style={{ textAlign: 'right' }} > {item.user.firstName} {item.user.lastName} </p>
+                    <p style={{ textAlign: 'right' }} > {item.user?.firstName} {item.user?.lastName} </p>
                 </Card.Body>
             </Card>
         </div>
